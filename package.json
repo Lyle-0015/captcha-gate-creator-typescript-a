@@ -1,0 +1,18 @@
+{
+  "name": "captcha-gate-creator-typescript-a",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/creator_signup.ts",
+    "test": "node --experimental-strip-types src/creator_signup.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0"
+  }
+}
